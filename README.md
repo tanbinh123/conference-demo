@@ -65,10 +65,8 @@ Connect with me at [Medium](https://medium.com/@mayararysia) and [LinkedIn](http
 
 *CLOUD DEPLOYMENT*
 
-
 ![heroku](https://raw.githubusercontent.com/mayararysia/conference-demo/master/screenshots/heroku.png)
 
 *WAR DEPLOYMENT*
-
 
 ![container](https://raw.githubusercontent.com/mayararysia/conference-demo/master/screenshots/container.png)
