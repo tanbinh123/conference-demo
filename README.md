@@ -76,9 +76,8 @@ Connect with me at [Medium](https://medium.com/@mayararysia) and [LinkedIn](http
 
 *WAR DEPLOYMENT*
 
-<<<<<<< HEAD
 ![container](https://raw.githubusercontent.com/mayararysia/conference-demo/master/screenshots/container.png)
-=======
+
 
 ![container](https://raw.githubusercontent.com/mayararysia/conference-demo/master/screenshots/container-v2.png)
 
@@ -86,4 +85,3 @@ Connect with me at [Medium](https://medium.com/@mayararysia) and [LinkedIn](http
 *ENTITY RELATIONSHIP DIAGRAM*
 
 ![container](https://raw.githubusercontent.com/mayararysia/conference-demo/master/screenshots/ERDiagram.png)
->>>>>>> master
