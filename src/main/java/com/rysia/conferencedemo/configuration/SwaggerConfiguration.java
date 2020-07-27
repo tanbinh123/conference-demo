@@ -3,14 +3,11 @@ package com.rysia.conferencedemo.configuration;
 import com.rysia.conferencedemo.controllers.HomeController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-<<<<<<< HEAD
-=======
 import org.springframework.context.annotation.Primary;
 import org.springframework.hateoas.client.LinkDiscoverer;
 import org.springframework.hateoas.client.LinkDiscoverers;
 import org.springframework.hateoas.mediatype.collectionjson.CollectionJsonLinkDiscoverer;
 import org.springframework.plugin.core.SimplePluginRegistry;
->>>>>>> master
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -18,15 +15,11 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-<<<<<<< HEAD
+
 import static springfox.documentation.builders.PathSelectors.regex;
-=======
 
 import java.util.ArrayList;
 import java.util.List;
->>>>>>> master
-
-import static springfox.documentation.builders.PathSelectors.regex;
 
 @Configuration
 @EnableSwagger2
@@ -39,8 +32,6 @@ public class SwaggerConfiguration {
 
     @Primary
     @Bean
-<<<<<<< HEAD
-=======
     public LinkDiscoverers discoverers() {
         List<LinkDiscoverer> plugins = new ArrayList<>();
         plugins.add(new CollectionJsonLinkDiscoverer());
@@ -48,7 +39,6 @@ public class SwaggerConfiguration {
     }
 
     @Bean
->>>>>>> master
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
